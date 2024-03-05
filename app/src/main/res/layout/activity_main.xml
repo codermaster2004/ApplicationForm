@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Application Form"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:textSize="17dp"
+        android:background="#FFEB3B"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NAME"
+        android:inputType="text"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email id (abc@Example.com)"
+        android:inputType="textEmailAddress"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/etcc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Country Code"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/etcountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Country"
+        android:layout_margin="5dp"/>
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prefer Not To Say"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnproceed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proceed"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/tvcheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="check name before proceed"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/tvcheck1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="check email id  before proceed"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/tvcheck2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="check phone no.before proceed"
+        android:layout_margin="5dp"/>
+
+</LinearLayout>
